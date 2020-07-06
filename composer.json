@@ -1,0 +1,22 @@
+{
+    "name": "sablesoft/yii2-geoip",
+    "description": "GeoIP component for yii2 application",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "GeoIP", "sablesoft"],
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "SableSoft (Raman Sobal)",
+            "email": "sable.lair@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=7.2",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sablesoft\\geoip\\": "src/"
+        }
+    }
+}
